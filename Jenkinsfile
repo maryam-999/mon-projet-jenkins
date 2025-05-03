@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Run a Task') {
             steps {
-                bat 'echo Ceci est une commande Windows' // ou sh si tu es sur Linux
+                bat 'echo Ceci est une commande Windows' 
             }
         }
         stage('End') {
