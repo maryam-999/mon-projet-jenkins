@@ -1,0 +1,3 @@
+@echo off
+echo TEST EN COURS...
+exit /b 1
