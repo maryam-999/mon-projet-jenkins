@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Start') {
             steps {
-                echo 'Début du pipeline'
+                echo 'Début du Pipeline'
             }
         }
         stage('Run a Task') {
@@ -13,7 +13,7 @@ pipeline {
         }
         stage('End') {
             steps {
-                echo 'Fin du pipeline'
+                echo 'Fin du Pipeline'
             }
         }
     }
